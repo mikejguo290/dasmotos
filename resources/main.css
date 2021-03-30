@@ -1,5 +1,12 @@
-header h1 {
-    font-family: Helvetica;
+/* can define stylings for the same element at multiple places. so you can abstract similarities across selectors into a rule set. define them individually later */
+h1,
+h2,
+p {
+    font-family:Helvetica, sans-serif;
+}
+
+/* h1-h6 can take a background-image attribute. don't need to do it via a wrapping it in header.  */
+h1 {
     font-size: 100px;
     font-weight:bold;
     color: khaki;
@@ -8,7 +15,6 @@ header h1 {
 }
 
 header h2 {
-    font-family:Helvetica;
     font-size:32px;
     font-weight:bold;
     color: white;
@@ -27,7 +33,6 @@ header h2 {
 }
 
 .pricing {
-    font-family: Helvetica;
     font-weight:bold;
     color:blue;
 }
