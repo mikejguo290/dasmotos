@@ -11,7 +11,7 @@ h1 {
     font-weight:bold;
     color: khaki;
     text-align:center;
-    background-image: url("./media/images/pattern.jpeg");
+    background-image: url("../media/images/pattern.jpeg");
 }
 
 header h2 {
